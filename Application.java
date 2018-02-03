@@ -23,12 +23,23 @@
 //     System.out.println(s1);
 //   }
 // }
+// public class Application {
+//   public static void main(String[] args) {
+//     String text = "Hello";
+//     String blank = " ";
+//     String name= "Bob";
+//     String greeting = text + blank + name; //you can concatenate Strings
+//     System.out.println(greeting); //semicolons are important!
+//   }
+// }
 public class Application {
   public static void main(String[] args) {
-    String text = "Hello";
-    String blank = " ";
-    String name= "Bob";
-    String greeting = text + blank + name; //you can concatenate Strings
-    System.out.println(greeting); //semicolons are important!
+    int value = 0;
+
+    while(value < 10){
+          System.out.println("Hello"+ value);
+          value = value + 1;
+    }
+
   }
 }
